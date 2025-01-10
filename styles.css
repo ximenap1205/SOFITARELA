@@ -92,7 +92,7 @@ body {
   }
   
   .home {
-    background: url(img/Foto1.PNG) no-repeat left, url(img/Foto1\ -\ copia.PNG) no-repeat right;
+    background: url(Foto1.PNG) no-repeat left, url(Foto1\ -\ copia.PNG) no-repeat right;
     height: 400px;
     display: flex;
     align-items: center;
