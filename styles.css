@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }  
+
+  h1, h2 { 
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-style: italic;
+    font-size: 3rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+    align-content: center;
+  }
+  
+  h1 .SO{
+    color: hsl(0, 0%, 100%); /* Color para SO*/
+  }
+  h2 .SO {
+    color: #333; /*Color para SO*/
+  }
+  
+  h1 .FIT, h2 .FIT {
+    color: #333;
+    background-color: rgb(232, 222, 243); /* Color de fondo diferente para FIT */
+    font-weight: bold; 
+  }
+  
+  h1.ARELA, h2 .ARELA {
+    color: #333; /*color para ARELA*/
+  }
+  
+
+  h3 {
+    color: #333;
+    text-align: center;
+  }
+
+  p {
+    color: #666;
+  }
+  
+  button {
+    background-color: hwb(267 80% 5%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #372188;
+  }
+  
+  .header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .header .nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .header .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .header .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .header .nav-links a:hover {
+    color: hsl(268, 53%, 74%);
+  }
+  
+  .home {
+    background: url(img/Foto1.PNG) no-repeat left, url(img/Foto1\ -\ copia.PNG) no-repeat right;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .home button {
+    margin-top: 20px;
+  }
+  
+  .services {
+    padding: 50px 0;
+    background: #f9f9f9;
+  }
+  
+  .services .service-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .services .card {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+  }
+  
+  .blog {
+    padding: 50px 0;
+  }
+  
+  .blog .blog-posts {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .blog .post {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .contact {
+    padding: 40px 0;
+    background: #333;
+    color: white;
+  }
+  
+  .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  .contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  
+  .comments {
+    padding: 50px 0;
+    background: #f9f9f9;
+  }
+  
+  .comments .experiencias {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .comments .experiencias1 {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+  }
+  
+  .footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
